@@ -1,5 +1,5 @@
 "use client";
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import { FaArrowUp } from "react-icons/fa";
 
 const ScrollToTop = () => {
@@ -13,21 +13,25 @@ const ScrollToTop = () => {
         setIsVisible(false);
       }
     };
+
+    window.addEventListener("scroll", toggleVisibility);
+    return () => {
+      window.removeEventListener("scroll", toggleVisibility);
+    };
   }, []);
 
-  
   return (
     <div className="fixed bottom-4 animate-pulse right-4">
       {isVisible && (
-        <button 
-        onClick={ScrollToTop}
-        className="bg-blue-900 text-white rounded-full w-12 h-12 flex  items-center justify-center
-        focus:outline-none"
+        <button
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="bg-blue-900 text-white rounded-full w-12 h-12 flex items-center justify-center focus:outline-none"
         >
-        <FaArrowUp />
-        </button>)}
+          <FaArrowUp />
+        </button>
+      )}
     </div>
-  )
-}
+  );
+};
 
 export default ScrollToTop;

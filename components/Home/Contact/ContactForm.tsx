@@ -5,10 +5,10 @@ const ContactForm = () => {
   return (
     <div className="bg-[#140c1c] rounded-lg md:text-3xl lg:text-[1.5rem] font-bold">
       <h1 className="text-bg text-2xl md:text-3xl lg:text-[2.5rem] font-bold">
-      Let's work together!
+      Let&apos;s work together!
       </h1>
       <p className="text-gray-200 mt-3 lg:text-base  text-xs md:text-sm">
-      "I’m always eager to collaborate on innovative projects and bring creative ideas to life. Let’s connect and build something impactful together!"
+      &quot;I’m always eager to collaborate on innovative projects and bring creative ideas to life. Let’s connect and build something impactful together!&quot;
       </p>
       {/* {input fields} */}
       <form className="mt-8 block w-full overflow-hidden">
