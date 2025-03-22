@@ -3,7 +3,7 @@ export const BaseInfo = {
     position: "Full Stack Web Developer",
     description:
       "I'm a passionate Full Stack Developer with expertise in building dynamic and scalable web applications using modern technologies. I love solving problems, creating seamless user experiences, and continuously learning new things. A positive and cheerful person, I enjoy collaborating with teams and bringing energy to every project I work on! 🚀😊",
-    profilePic: "/images/pp1.jpg",
+    profilePic: "/images/profilePic.png",
   };
   
   export const aboutInfo = {
