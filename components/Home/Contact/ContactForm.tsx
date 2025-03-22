@@ -8,7 +8,7 @@ const ContactForm = () => {
       Let's work together!
       </h1>
       <p className="text-gray-200 mt-3 lg:text-base  text-xs md:text-sm">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consequuntur error natus. Illo, cum dicta?
+      "I’m always eager to collaborate on innovative projects and bring creative ideas to life. Let’s connect and build something impactful together!"
       </p>
       {/* {input fields} */}
       <form className="mt-8 block w-full overflow-hidden">
@@ -46,7 +46,7 @@ const ContactForm = () => {
         border-[1.5px] border-gray-200 border-opacity outline-none"
         defaultValue=""
         >         
-         <option value="" disabled>
+         <option value="" disabled hidden>
           Select an option
          </option>
          <option value="frontend" >Frontend Development</option>
