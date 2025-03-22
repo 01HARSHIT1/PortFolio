@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 
 const ContactForm = () => {
@@ -42,11 +43,13 @@ const ContactForm = () => {
        </div>
        <div>
         <select className="w-full mt-5  bg-black text-white placeholder:text-gray-600 px-4 py-3.5 rounded-md
-        border-[1.5px] border-gray-200 border-opacity outline-none">
-         <option value="" disabled selected>
+        border-[1.5px] border-gray-200 border-opacity outline-none"
+        defaultValue=""
+        >         
+         <option value="" disabled>
           Select an option
          </option>
-         <option value="frontend">Frontend Development</option>
+         <option value="frontend" >Frontend Development</option>
          <option value="backend">Backend Development</option>
          <option value="fullstack">Fullstack Development</option>
         </select>
