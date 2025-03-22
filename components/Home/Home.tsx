@@ -5,7 +5,6 @@ import About from './About/About';
 import Services from './Services/Services';
 import Project from './Project/Project';
 import Skills from './Skills/Skills';
-import Slider from './Reviews/Slider';
 import Reviews from './Reviews/Reviews';
 import Blog from './BLOG/Blog';
 import Contact from './Contact/Contact';
