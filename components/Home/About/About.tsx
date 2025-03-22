@@ -6,9 +6,9 @@ import Image from 'next/image';
 
 
 const About = () => {
-  return <div className="pt-16 pb-16 bg-[#050709]">
+  return <div id="about" className="pt-16 pb-16 bg-[#050709]">
    <SectionHeading>About Me</SectionHeading>
-   <div  className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20">
+   <div id="about" className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20">
     {/* Text Content */}
     <div data-aos="fade-left" data-aos-anchor-placement="top-center">
      <h1 className="text-bg text-[26px] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-200">
