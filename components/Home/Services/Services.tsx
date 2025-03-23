@@ -11,7 +11,7 @@ const Services = () => {
     items-center mt-20">
         {servicesData.map((service,i) => {
             return (
-            <div data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-delay={`${i*150}`} key={service.id}>
+            <div data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-delay={`${i*40}`} key={service.id}>
                 <ServiceCard service={service} />
                 </div>
             );    
